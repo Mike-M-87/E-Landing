@@ -57,7 +57,7 @@ export default function Home() {
 
       <section className='d-flex mt-5 align-items-center justify-content-around flex-wrap'>
         <div className='order-1 p-3'>
-          <h1 className='text-primary'>Hi, I'm Jack,<br />Want to boost your grades?</h1>
+          <h1 className='text-primary'>Hi, {"I'm"} Jack,<br />Want to boost your grades?</h1>
           <p className='lead text-secondary text-start'>Learn by understanding your schedule.<br />
             Gain skills and knowledge to build a great future.<br /></p>
           <p className='blockquote-footer mt-1'>Founder and Creator <b>Martin Martin</b></p>
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       <section className='mt-5'>
-        <h1 className='text-center'> /* Incomplete Sections From here */</h1>
+        <h1 className='text-center'> ?? Incomplete Sections From here ??</h1>
       </section>
 
 
@@ -108,16 +108,14 @@ export default function Home() {
             <form className="mt-3">
               <h6>Subscribe to our email newsletter:</h6>
               <div className="mb-3 mt-3">
-                <label for="email" className="form-label">Email:</label>
+                <label htmlFor="email" className="form-label">Email:</label>
                 <input type="email" className="form-control" id="email" placeholder="Enter email" name="email"/>
               </div>
               <button type="submit" className="btn btn-primary">Submit</button>
             </form>
           </div>
         </div>
-
       </footer>
-
     </>
   )
 }
